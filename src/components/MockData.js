@@ -1,0 +1,218 @@
+// export const questions = [
+//   {
+//     question: "What does HTML stand for?",
+//     option1: "Hyper Text Markup Language",
+//     option2: "Home Tool Markup Language",
+//     option3: "Hyperlinks and Text Markup Language",
+//     option4: "Hyper Text Makeup Language",
+//     answer: "option1",
+//   },
+//   {
+//     question: "What is the correct HTML element for the largest heading?",
+//     option1: "<h1>",
+//     option2: "<h6>",
+//     option3: "<heading>",
+//     option4: "<head>",
+//     answer: "option1",
+//   },
+//   {
+//     question: "Which HTML attribute is used to define inline styles?",
+//     option1: "font",
+//     option2: "styles",
+//     option3: "class",
+//     option4: "style",
+//     answer: "option4",
+//   },
+//   {
+//     question: "What does CSS stand for?",
+//     option1: "Creative Style Sheets",
+//     option2: "Cascading Style Sheets",
+//     option3: "Colorful Style Sheets",
+//     option4: "Computer Style Sheets",
+//     answer: "option2",
+//   },
+//   {
+//     question: "Which CSS property controls the text size?",
+//     option1: "text-style",
+//     option2: "font-style",
+//     option3: "font-size",
+//     option4: "text-size",
+//     answer: "option3",
+//   },
+//   {
+//     question: "Which is the correct CSS syntax?",
+//     option1: "{body:color=black;}",
+//     option2: "body {color: black;}",
+//     option3: "{body;color:black;}",
+//     option4: "body:color=black;",
+//     answer: "option2",
+//   },
+//   {
+//     question: "How do you create a function in JavaScript?",
+//     option1: "function = myFunction()",
+//     option2: "function:myFunction()",
+//     option3: "function myFunction()",
+//     option4: "myFunction():function",
+//     answer: "option3",
+//   },
+//   {
+//     question: "How can you add a comment in JavaScript?",
+//     option1: "'This is a comment",
+//     option2: "//This is a comment",
+//     option3: "<!--This is a comment-->",
+//     option4: "**This is a comment",
+//     answer: "option2",
+//   },
+//   {
+//     question: "What is the correct way to link an external CSS file in HTML?",
+//     option1: "<style src='mystyle.css'>",
+//     option2: "<link rel='stylesheet' href='mystyle.css'>",
+//     option3: "<stylesheet>mystyle.css</stylesheet>",
+//     option4: "<css href='mystyle.css'>",
+//     answer: "option2",
+//   },
+//   {
+//     question:
+//       "Which JavaScript method is used to access an HTML element by ID?",
+//     option1: "getElementByClassName()",
+//     option2: "getElementById()",
+//     option3: "querySelector()",
+//     option4: "getElement()",
+//     answer: "option2",
+//   },
+//   {
+//     question: "In CSS, what is the default value of the 'position' property?",
+//     option1: "absolute",
+//     option2: "relative",
+//     option3: "static",
+//     option4: "fixed",
+//     answer: "option3",
+//   },
+//   {
+//     question:
+//       "What HTML element is used to specify a footer for a document or section?",
+//     option1: "<footer>",
+//     option2: "<section>",
+//     option3: "<bottom>",
+//     option4: "<div>",
+//     answer: "option1",
+//   },
+//   {
+//     question: "Which property is used to change the background color in CSS?",
+//     option1: "bgcolor",
+//     option2: "color",
+//     option3: "background-color",
+//     option4: "background",
+//     answer: "option3",
+//   },
+//   {
+//     question: "How do you declare a JavaScript variable?",
+//     option1: "v carName;",
+//     option2: "variable carName;",
+//     option3: "var carName;",
+//     option4: "carName var;",
+//     answer: "option3",
+//   },
+//   {
+//     question: "Which event occurs when the user clicks on an HTML element?",
+//     option1: "onmouseclick",
+//     option2: "onchange",
+//     option3: "onmouseover",
+//     option4: "onclick",
+//     answer: "option4",
+//   },
+//   {
+//     question: "Which of the following is a block-level element in HTML?",
+//     option1: "<span>",
+//     option2: "<div>",
+//     option3: "<b>",
+//     option4: "<a>",
+//     answer: "option2",
+//   },
+//   // Add more questions here following the same structure
+// ];
+
+
+export const questions = [
+    {
+      question: "What does HTML stand for?",
+      options: ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Makeup Language"],
+      answer: "0",
+    },
+    {
+      question: "What is the correct HTML element for the largest heading?",
+      options: ["<h1>", "<h6>", "<heading>", "<head>"],
+      answer: "0",
+    },
+    {
+      question: "Which HTML attribute is used to define inline styles?",
+      options: ["font", "styles", "class", "style"],
+      answer: "3",
+    },
+    {
+      question: "What does CSS stand for?",
+      options: ["Creative Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"],
+      answer: "1",
+    },
+    {
+      question: "Which CSS property controls the text size?",
+      options: ["text-style", "font-style", "font-size", "text-size"],
+      answer: "2",
+    },
+    {
+      question: "Which is the correct CSS syntax?",
+      options: ["{body:color=black;}", "body {color: black;}", "{body;color:black;}", "body:color=black;"],
+      answer: "1",
+    },
+    {
+      question: "How do you create a function in JavaScript?",
+      options: ["function = myFunction()", "function:myFunction()", "function myFunction()", "myFunction():function"],
+      answer: "2",
+    },
+    {
+      question: "How can you add a comment in JavaScript?",
+      options: ["'This is a comment", "//This is a comment", "<!--This is a comment-->", "**This is a comment"],
+      answer: "1",
+    },
+    {
+      question: "What is the correct way to link an external CSS file in HTML?",
+      options: ["<style src='mystyle.css'>", "<link rel='stylesheet' href='mystyle.css'>", "<stylesheet>mystyle.css</stylesheet>", "<css href='mystyle.css'>"],
+      answer: "1",
+    },
+    {
+      question: "Which JavaScript method is used to access an HTML element by ID?",
+      options: ["getElementByClassName()", "getElementById()", "querySelector()", "getElement()"],
+      answer: "1",
+    },
+    {
+      question: "In CSS, what is the default value of the 'position' property?",
+      options: ["absolute", "relative", "static", "fixed"],
+      answer: "2",
+    },
+    {
+      question: "What HTML element is used to specify a footer for a document or section?",
+      options: ["<footer>", "<section>", "<bottom>", "<div>"],
+      answer: "0",
+    },
+    {
+      question: "Which property is used to change the background color in CSS?",
+      options: ["bgcolor", "color", "background-color", "background"],
+      answer: "2",
+    },
+    {
+      question: "How do you declare a JavaScript variable?",
+      options: ["v carName;", "variable carName;", "var carName;", "carName var;"],
+      answer: "2",
+    },
+    {
+      question: "Which event occurs when the user clicks on an HTML element?",
+      options: ["onmouseclick", "onchange", "onmouseover", "onclick"],
+      answer: "3",
+    },
+    {
+      question: "Which of the following is a block-level element in HTML?",
+      options: ["<span>", "<div>", "<b>", "<a>"],
+      answer: "1",
+    },
+  ];
+  
