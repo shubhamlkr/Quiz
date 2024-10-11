@@ -31,13 +31,9 @@ const LandingPage = () => {
   };
 
   const headerCardStyle = {
-    // display: "flex",
-    border: "1px solid black",
-    // boxShadow: "10px 10px 5px 12px lightblue",
     borderRadius: "6px",
     padding: "32px",
     width: "800px",
-    // height: "150px",
   };
 
   const handleSubmit = () => {
@@ -54,7 +50,7 @@ const LandingPage = () => {
         <FinalPage score={score} handleRestart={() => handleRestart()} />
       ) : (
         <div>
-          <div style={headerCardStyle}>
+          <div style={headerCardStyle} className="i-box-shadow">
             <div
               style={{ fontWeight: 700, margin: "16px 0", fontSize: "32px" }}
             >

@@ -1,41 +1,31 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-function Quiz({
-  data,
-  index,
-  handleNextClick,
-  handlePrevClick,
-  maxLength,
-  handleSubmit,
-}) {
+function Quiz({ data, index, handleNextClick, maxLength, handleSubmit }) {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isCorrect, setIsCorrect] = useState(false);
 
   const successStyle = {
     backgroundColor: "green",
     border: "1px solid blue",
-    // margin: "6px 0",
     borderRadius: "6px",
+    color: "#fff",
   };
 
   const failureStyle = {
     backgroundColor: "red",
     border: "1px solid yellow",
-    // margin: "6px 0",
     borderRadius: "6px",
+    color: "#fff",
   };
-  console.log("selectedOption", selectedOption);
 
   const handleOptionClick = (optionIndex) => {
     setSelectedOption(optionIndex);
-    // if (!selectedOption) {
     if (optionIndex == data?.answer) {
       setIsCorrect(true);
     } else {
       setIsCorrect(false);
     }
-    // }
   };
 
   const handleStyle = (optionIndex) => {
@@ -45,18 +35,16 @@ function Quiz({
     return {};
   };
 
-  console.log("selectedOption", selectedOption);
-
   return (
     <div
       style={{
-        border: "1px solid black",
         borderRadius: "6px",
         padding: "32px",
         textAlign: "left",
         width: "800px",
         minHeight: "200px",
       }}
+      className="i-box-shadow"
     >
       <div style={{ fontWeight: 500, margin: "16px 0" }}>
         Question : {data?.question}
@@ -78,7 +66,6 @@ function Quiz({
                   paddingLeft: "16px",
                   margin: "4px 0",
                   cursor: "pointer",
-                  // disabled: selectedOption ?
                 }}
               >
                 {option}
@@ -100,7 +87,6 @@ function Quiz({
             <button
               className="btn btn-custom"
               style={{
-                // display: index < maxLength - 1 ? "" : "none",
                 opacity: selectedOption || selectedOption == 0 ? 1 : 0.5,
                 cursor: "pointer",
               }}
