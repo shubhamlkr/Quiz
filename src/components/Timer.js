@@ -32,14 +32,10 @@ const Timer = () => {
 
   return (
     <div>
-      <h1>
+      <div>
         Timer: {formatTime(minutes)}:{formatTime(seconds)}
-      </h1>
-      {isActive ? (
-        <p>Counting down...</p>
-      ) : (
-        <p>Time's up! Timer stopped after 10 minutes.</p>
-      )}
+      </div>
+      {isActive ? "" : <p>Time's up! </p>}
     </div>
   );
 };

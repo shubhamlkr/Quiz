@@ -1,0 +1,29 @@
+/* Custom Bootstrap Button */
+.btn-custom {
+  background-color: #28a745; /* Custom background color */
+  color: white; /* Text color */
+  border: 2px solid transparent; /* Custom border */
+  border-radius: 50px; /* Rounded corners */
+  padding: 10px 30px; /* Adjust padding */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uppercase text */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.btn-custom:hover {
+  background-color: #218838; /* Darker background on hover */
+  border-color: #1e7e34; /* Border color on hover */
+  color: #ffffff; /* Ensure text remains white on hover */
+}
+
+.btn-custom:active {
+  background-color: #1e7e34; /* Active state background color */
+  border-color: #1c7430; /* Active state border */
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Slight shadow effect */
+}
+
+.btn-custom:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5); /* Focus ring */
+}
